@@ -1,0 +1,23 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# PyTorch model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+baseline_backup/
+experiments/
+
+# Raw datasets and large CSV files
+data/
+*.csv
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
